@@ -1,4 +1,4 @@
-# Web Scraping Project
+# Cenoteka.rs Scraper
 
 This project is designed to scrape product information from CENOTEKA.RS. It extracts details such as product names, prices, and image URLs from the website and saves the data into a CSV file.
 
@@ -17,23 +17,29 @@ This project is designed to scrape product information from CENOTEKA.RS. It extr
     cd web_scraping_project
     ```
 
-2. **Install dependencies:**
+2. **Create and activate a virtual environment:**
+    ```sh
+    python -m venv venv
+    venv\Scripts\activate
+    ```
+
+3. **Install dependencies:**
     Make sure you have Python installed. Then, install the required Python packages:
     ```sh
     pip install selenium requests pandas
     ```
 
-3. **Download ChromeDriver:**
+4. **Download ChromeDriver:**
     Download the ChromeDriver that matches your Chrome browser version from [here](https://sites.google.com/a/chromium.org/chromedriver/downloads).
     Extract the downloaded file and place it in the `web_scraping_project` directory.
 
-4. **Update ChromeDriver path:**
+5. **Update ChromeDriver path:**
     Ensure the path to `chromedriver.exe` in `site1_scraper copy 2.py` is correct:
     ```python
     service = Service(r'C:\Users\admin\Desktop\web_scraping_project\chromedriver-win64\chromedriver.exe')
     ```
 
-5. **Place the sitemap file:**
+6. **Place the sitemap file:**
     Ensure the `sitemapcenotekaofficial.xml` file is in the `web_scraping_project` directory.
 
 ## Running the Scraper
