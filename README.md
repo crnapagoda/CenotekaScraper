@@ -1,10 +1,19 @@
 # Web Scraping Project
 
+This project is designed to scrape product information from CENOTEKA.RS. It extracts details such as product names, prices, and image URLs from the website and saves the data into a CSV file.
+
+## Features
+
+- Scrapes product names, prices, and image URLs.
+- Supports multiple stores and price points for each product.
+- Extracts URLs from a sitemap file.
+- Saves the scraped data into a CSV file for easy analysis.
+
 ## Setup
 
 1. **Clone the repository:**
     ```sh
-    git clone <repository_url>
+    git clone https://github.com/crnapagoda/CenotekaScraper
     cd web_scraping_project
     ```
 
