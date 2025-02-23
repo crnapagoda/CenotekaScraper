@@ -61,3 +61,7 @@ This project is designed to scrape product information from CENOTEKA.RS. It extr
     ```
 
 - Ensure your Chrome browser is up to date to avoid compatibility issues with ChromeDriver.
+
+## Work in Progress
+
+This project is a work in progress. Pagination support is currently being developed.
